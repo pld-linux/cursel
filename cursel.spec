@@ -6,6 +6,7 @@ Release:	4
 License:	GPL
 Group:		Applications/Terminal
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
+# Source0-md5:	b638c0e6b2da01201cc30f4666a8afb2
 BuildRequires:	autoconf
 BuildRequires:	byacc
 BuildRequires:	flex
