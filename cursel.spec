@@ -1,5 +1,5 @@
-Summary:	form and menu langugae interpreter
-Summary(pl):	interpreter jêzyka formularzy i menu
+Summary:	Form and menu language interpreter
+Summary(pl):	Interpreter jêzyka formularzy i menu
 Name:		cursel
 Version:	0.1.9
 Release:	2
@@ -8,6 +8,7 @@ Group:		Applications/Terminal
 Group(de):	Applikationen/Terminal
 Group(pl):	Aplikacje/Terminal
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
 BuildRequires:	byacc
 BuildRequires:	flex
 BuildRequires:	ncurses-devel >= 5.2
