@@ -2,7 +2,7 @@ Summary:	Form and menu language interpreter
 Summary(pl):	Interpreter jêzyka formularzy i menu
 Name:		cursel
 Version:	0.1.9
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Terminal
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
@@ -40,12 +40,10 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 %{__make} install \
 	BINDIR=$RPM_BUILD_ROOT%{_bindir}
 
-gzip -9nf README TODO CHANGES
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc README TODO CHANGES
 %attr(755,root,root) %{_bindir}/*
