@@ -1,12 +1,13 @@
 Summary:	Form and menu language interpreter
 Summary(pl):	Interpreter jêzyka formularzy i menu
 Name:		cursel
-Version:	0.1.9
-Release:	5
+Version:	0.2.2
+Release:	1
 License:	GPL
 Group:		Applications/Terminal
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
-# Source0-md5:	b638c0e6b2da01201cc30f4666a8afb2
+# Source0-md5:	3797e0236c4f6d76d8cfbb538d5240cf
+URL:		http://users.pandora.be/stes/compiler.html
 BuildRequires:	autoconf
 BuildRequires:	byacc
 BuildRequires:	flex
