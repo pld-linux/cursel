@@ -27,7 +27,7 @@ u¿ytkownika do skryptów pow³oki lub innych programów.
 %setup  -q
 
 %build
-autoconf
+%{__autoconf}
 %configure
 %{__make} \
 	OBJC="%{_bindir}/objc -Wc:-march=%{_target_cpu} -I%{_includedir}/ncurses"\
