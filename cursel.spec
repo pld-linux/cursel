@@ -10,7 +10,7 @@ Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	byacc
 BuildRequires:	flex
-BuildRequires:	ncurses-devel >= 5.2
+BuildRequires:	ncurses-ext-devel >= 5.2
 BuildRequires:	objc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
