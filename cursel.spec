@@ -2,7 +2,7 @@ Summary:	Form and menu language interpreter
 Summary(pl):	Interpreter jêzyka formularzy i menu
 Name:		cursel
 Version:	0.1.9
-Release:	4
+Release:	5
 License:	GPL
 Group:		Applications/Terminal
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
@@ -25,7 +25,7 @@ Niewielki jêzyk pozwalaj±cy na szybkie tworzenie interfejsu
 u¿ytkownika do skryptów pow³oki lub innych programów.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
 %{__autoconf}
