@@ -2,7 +2,7 @@ Summary:	Form and menu language interpreter
 Summary(pl):	Interpreter jêzyka formularzy i menu
 Name:		cursel
 Version:	0.1.9
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Terminal
 Group(de):	Applikationen/Terminal
@@ -32,7 +32,7 @@ u¿ytkownika do skryptów pow³oki lub innych programów.
 autoconf
 %configure
 %{__make} \
-	OBJC="%{_bindir}/objc -I%{_includedir}/ncurses"\
+	OBJC="%{_bindir}/objc -Wc:-march=%{_target_cpu} -I%{_includedir}/ncurses"\
 	LIBS="-lform -lmenu -lncurses"
 
 %install
