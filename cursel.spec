@@ -5,8 +5,6 @@ Version:	0.1.9
 Release:	3
 License:	GPL
 Group:		Applications/Terminal
-Group(de):	Applikationen/Terminal
-Group(pl):	Aplikacje/Terminal
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
 BuildRequires:	autoconf
 BuildRequires:	byacc
