@@ -30,8 +30,8 @@ u¿ytkownika do skryptów pow³oki lub innych programów.
 %{__autoconf}
 %configure
 %{__make} \
-	OBJC="%{_bindir}/objc -Wc:-march=%{_target_cpu} -I%{_includedir}/ncurses"\
-	LIBS="-lform -lmenu -lncurses"
+	OBJC="%{_bindir}/objc -Wc:%{rpmcflags} -I%{_includedir}/ncurses"\
+	LIBS="-lform -lmenu -lncurses %{rpmldflags}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
