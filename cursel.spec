@@ -8,11 +8,10 @@ Group:		Applications/Terminal
 Group(de):	Applikationen/Terminal
 Group(pl):	Aplikacje/Terminal
 Source0:	http://users.pandora.be/stes/%{name}-%{version}.tar.gz
-BuildRequires:	objc
 BuildRequires:	byacc
 BuildRequires:	flex
-BuildRequires:	ncurses-ext
-BuildRequires:	ncurses-devel
+BuildRequires:	ncurses-devel >= 5.2
+BuildRequires:	objc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -32,7 +31,7 @@ u¿ytkownika do skryptów pow³oki lub innych programów.
 %configure
 %{__make} \
 	OBJC="%{_bindir}/objc -I%{_includedir}/ncurses"\
-	LIBS=" -lform -lmenu -lncurses"
+	LIBS="-lform -lmenu -lncurses"
 
 %install
 rm -rf $RPM_BUILD_ROOT
