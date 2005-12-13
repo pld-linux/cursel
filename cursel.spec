@@ -32,7 +32,7 @@ u¿ytkownika do skryptów pow³oki lub innych programów.
 %{__autoconf}
 %configure
 %{__make} \
-	OBJC="%{_bindir}/objc -Wc:%{rpmcflags} -I%{_includedir}/ncurses"\
+	OBJC="%{_bindir}/objc -Wc:%{rpmcflags} -I/usr/include/ncurses"\
 	LIBS="-lform -lmenu -lncurses %{rpmldflags}"
 
 %install
