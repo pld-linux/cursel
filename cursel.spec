@@ -1,5 +1,5 @@
 Summary:	Form and menu language interpreter
-Summary(pl.UTF-8):   Interpreter języka formularzy i menu
+Summary(pl.UTF-8):	Interpreter języka formularzy i menu
 Name:		cursel
 Version:	0.2.2
 Release:	1
