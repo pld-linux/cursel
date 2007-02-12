@@ -1,5 +1,5 @@
 Summary:	Form and menu language interpreter
-Summary(pl):	Interpreter jêzyka formularzy i menu
+Summary(pl.UTF-8):   Interpreter jÄ™zyka formularzy i menu
 Name:		cursel
 Version:	0.2.2
 Release:	1
@@ -20,10 +20,10 @@ CURSEL is a FMLI implementation, a small language that allows you to
 quickly make a form- and menu- based character interface to shell
 scripts and other programs.
 
-%description -l pl
-CURSEL jest implementacj± FMLI (Form and Menu Language Interpreter).
-Niewielki jêzyk pozwalaj±cy na szybkie tworzenie interfejsu
-u¿ytkownika do skryptów pow³oki lub innych programów.
+%description -l pl.UTF-8
+CURSEL jest implementacjÄ… FMLI (Form and Menu Language Interpreter).
+Niewielki jÄ™zyk pozwalajÄ…cy na szybkie tworzenie interfejsu
+uÅ¼ytkownika do skryptÃ³w powÅ‚oki lub innych programÃ³w.
 
 %prep
 %setup -q
